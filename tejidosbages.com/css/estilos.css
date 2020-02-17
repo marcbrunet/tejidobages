@@ -1,0 +1,91 @@
+/* CSS Document */
+/* Centrar contenido para IE7 y Firefox 
+*/
+ 
+html, body {   
+    height:100%;   
+    margin:0;   
+}   
+body {   
+    position:relative;   
+    min-width:700px;   
+    min-height:500px;   
+}
+#contenido {   
+    position:absolute;   
+    background-color:#ffffff;   
+    width:700px;   
+    height:500px;   
+    top:50%;   
+    left:50%;   
+    margin-top:-250px;   
+    margin-left:-350px;   
+}   
+
+.texto{ font-size:10px; line-height:13px;  color : #000000; font-family : Verdana, Arial, Helvetica, sans-serif; letter-spacing: 0px;}
+.marco{ border : 1px solid Black; color :Black; font-size : 11px; font-family : tahoma,verdana; text-decoration : none;  }
+
+a.menu_link_home:link{ font-size : 12px; color : #000000; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+a.menu_link_home:visited{ font-size : 12px; color : #000000; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+a.menu_link_home:hover{ font-size : 12px; color : #e0cea0; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+
+a.menu_link_empresa:link{ font-size : 12px; color : #000000; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+a.menu_link_empresa:visited{ font-size : 12px; color : #000000; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+a.menu_link_empresa:hover{ font-size : 12px; color : #e0cea0; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+
+a.menu_link_proceso:link{ font-size : 12px; color : #000000; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+a.menu_link_proceso:visited{ font-size : 12px; color : #000000; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+a.menu_link_proceso:hover{ font-size : 12px; color : #385c80; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+
+a.menu_link_lino:link{ font-size : 12px; color : #000000; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+a.menu_link_lino:visited{ font-size : 12px; color : #000000; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+a.menu_link_lino:hover{ font-size : 12px; color : #79971b; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+
+a.menu_link_lifestyle:link{ font-size : 12px; color : #000000; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+a.menu_link_lifestyle:visited{ font-size : 12px; color : #000000; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+a.menu_link_lifestyle:hover{ font-size : 12px; color : #9c9ea0; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+
+a.menu_link_garantia:link{ font-size : 12px; color : #000000; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+a.menu_link_garantia:visited{ font-size : 12px; color : #000000; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+a.menu_link_garantia:hover{ font-size : 12px; color : #53829c; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+
+a.menu_link_contacto:link{ font-size : 12px; color : #000000; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+a.menu_link_contacto:visited{ font-size : 12px; color : #000000; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+a.menu_link_contacto:hover{ font-size : 12px; color : #384524; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+
+a.navegacion:link{ font-family : Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#000000; line-height:16px; text-decoration :none; font-weight: bold;}
+a.navegacion:visited { font-family : Verdana, Arial, Helvetica, sans-serif;  font-size:10px; color:#000000; line-height:16px; text-decoration :none; font-weight: bold;}
+a.navegacion:hover { font-family : Verdana, Arial, Helvetica, sans-serif;  font-size:10px; color:#ffffff; line-height:16px; text-decoration : none; font-weight: bold;}
+
+a.navegacion_blanco:link{ font-family : Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#ffffff; line-height:16px; text-decoration :none; font-weight: bold;}
+a.navegacion_blanco:visited { font-family : Verdana, Arial, Helvetica, sans-serif;  font-size:10px; color:#ffffff; line-height:16px; text-decoration :none; font-weight: bold;}
+a.navegacion_blanco:hover { font-family : Verdana, Arial, Helvetica, sans-serif;  font-size:10px; color:#000000; line-height:16px; text-decoration : none; font-weight: bold;}
+
+a.navegacion_blanco_gris:link{ font-family : Verdana, Arial, Helvetica, sans-serif; font-size:10px; color:#ffffff; line-height:16px; text-decoration :none; font-weight: bold;}
+a.navegacion_blanco_gris:visited { font-family : Verdana, Arial, Helvetica, sans-serif;  font-size:10px; color:#ffffff; line-height:16px; text-decoration :none; font-weight: bold;}
+a.navegacion_blanco_gris:hover { font-family : Verdana, Arial, Helvetica, sans-serif;  font-size:10px; color:#9c9ea0; line-height:16px; text-decoration : none; font-weight: bold;}
+
+a.link_texto_lino:link{ font-size : 10px; color : #79971b; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+a.link_texto_lino:visited{ font-size : 10px; color : #79971b; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+a.link_texto_lino:hover{ font-size : 10px; color : #000000; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+
+a.link_texto_garantia:link{ font-size : 10px; color : #53829c; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+a.link_texto_garantia:visited{ font-size : 10px; color : #53829c; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+a.link_texto_garantia:hover{ font-size : 10px; color : #000000; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+
+a.link_texto_lifestyle:link{ font-size : 10px; color : #000000; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+a.link_texto_lifestyle:visited{ font-size : 10px; color : #000000; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+a.link_texto_lifestyle:hover{ font-size : 10px; color : #9c9ea0; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+
+a.mail:link{ font-size : 12px; color : #384524; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+a.mail:visited{ font-size : 12px; color : #384524; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+a.mail:hover{ font-size : 12px; color : #000000; font-family : Verdana, Arial, Helvetica, sans-serif;  text-decoration : none; letter-spacing: 0px; font-weight: bold;}
+
+.llistat{ margin:0px 0px 0px 0px; padding:0px 10px 0px 30px; font-weight: bold;}
+/* Centrar contenido para IE 6
+#contenido {   
+    top:expression(document.body.clientHeight < 501? "0px": "50%" );   
+    margin-top:expression(document.body.clientHeight < 501? "0px": "-250px" );   
+    left:expression(document.body.clientWidth < 701? "0px": "50%" );   
+    margin-left:expression(document.body.clientWidth < 701? "0px": "-350px" ); 
+*/
