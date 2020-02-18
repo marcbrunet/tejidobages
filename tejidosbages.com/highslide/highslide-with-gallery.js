@@ -2,7 +2,7 @@
 Name:    Highslide JS
 Version: 4.0.12 (February 4 2009)
 Config:  default +slideshow +positioning +transitions
-Author:  Torstein Hønsi
+Author:  Torstein Hï¿½nsi
 Support: http://highslide.com/support
 
 Licence:
@@ -54,7 +54,7 @@ lang : {
 	restoreTitle : 'Click to close image, click and drag to move. Use arrow keys for next and previous.'
 },
 // See http://highslide.com/ref for examples of settings  
-graphicsDir : 'highslide/graphics/',
+graphicsDir : 'tejidosbages.com/highslide/graphics/',
 expandCursor : 'zoomin.cur', // null disables
 restoreCursor : 'zoomout.cur', // null disables
 expandDuration : 250, // milliseconds
